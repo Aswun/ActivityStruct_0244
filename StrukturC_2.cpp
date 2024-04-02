@@ -14,9 +14,16 @@ struct mahasiswa {
 };
 
 int main() {
-	mahasiswa  mhs;
+	mahasiswa mhs;
 	cout << "nomor Mahasiswa : ";
 	cin >> mhs.nim;
 	cout << "Nama Mahasiswa : ";
 	cin >> mhs.nama;
+
+	cout << "alamat mahasiswa : ";
+	cout << "\t nama Desa : ";
+	cin >> mhs.alamat.desa;
+	cout << "\t Nama kota : ";
+	cin >> mhs.alamat.kota;
+
 }
